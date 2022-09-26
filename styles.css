@@ -58,7 +58,7 @@ img{
   background-color: grey;
 }
 footer{
-  padding: 5% 17%;
+  padding: 20% 17%;
 }
 p{
   color: #FEF2BF;
@@ -76,11 +76,23 @@ p{
     margin: auto;
   }
   img{
-      width: 50px;
+      width: 60px;
       padding: 10px;
       position: relative;
       right: 45%;
     }
   
+  
+}
+
+@media (max-width: 400px) {
+  .btns {
+    margin: 7px;
+    
+    height: 60px;
+    width: 60px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
   
 }
